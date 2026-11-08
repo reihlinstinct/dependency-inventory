@@ -37,9 +37,9 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
     continue-on-error: true
-    permissions:
-      contents: read
-      pull-requests: read
+    # No permissions block: the job inherits the caller's grants (contents:read
+    # + pull-requests:read on PR runs). Declaring them here makes callers that
+    # grant only contents:read (e.g. scan-weekly) invalid at startup.
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
