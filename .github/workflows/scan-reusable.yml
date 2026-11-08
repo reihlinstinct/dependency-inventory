@@ -2,15 +2,11 @@ name: Vulnerability scan (reusable)
 
 on:
   workflow_call:
-    inputs:
-      commit-inventory:
-        description: Commit deps-inventory.json on scheduled runs
-        type: boolean
-        default: false
 
 # No top-level or scan-job permissions block: called-workflow jobs inherit
 # the caller job's grants (a called workflow can downgrade, never elevate).
-# Callers grant contents:read on PR runs and contents:write on schedule.
+# Callers grant contents:read everywhere; the weekly inventory is published
+# as a workflow artifact, never committed, so no caller needs write access.
 
 jobs:
   scan:
@@ -28,18 +24,15 @@ jobs:
         run: python3 .depinv/tools/generate_inventory.py --repo . --name "$GITHUB_REPOSITORY" --out deps-inventory.json
       - name: Scan against OSV
         run: python3 .depinv/tools/scan_inventory.py --inventory deps-inventory.json --out vuln-report.md --title "Vulnerability scan - $GITHUB_REPOSITORY"
-      - name: Commit inventory
-        if: inputs.commit-inventory && github.event_name == 'schedule'
-        run: |
-          git config user.name "depinv-bot"
-          git config user.email "depinv-bot@users.noreply.github.com"
-          git add deps-inventory.json
-          if git diff --cached --quiet; then
-            echo "inventory unchanged"
-          else
-            git commit -m "chore: refresh deps-inventory.json (weekly scan)"
-            git push
-          fi
+      - name: Publish inventory artifact
+        if: github.event_name == 'schedule'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: deps-inventory
+          path: |
+            deps-inventory.json
+            vuln-report.md
+          retention-days: 30
   dependency-review:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
