@@ -1,0 +1,96 @@
+{
+ "repo": "reihlinstinct/dependency-inventory",
+ "generated_at": "2026-11-08T10:44:05.696478+00:00",
+ "packages": [
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/aggregate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/dependency-review-action",
+   "version": null,
+   "spec": "a1d282b36b6f3519aa1f3fc636f609c47dddb294",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "google/osv-scanner-action",
+   "version": null,
+   "spec": "b1d267aea5211fa648d9d442fa64b90dbdcbdd36",
+   "repo": "reihlinstinct/dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  }
+ ]
+}

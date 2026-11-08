@@ -1,0 +1,66 @@
+name: Vulnerability scan (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      commit-inventory:
+        description: Commit deps-inventory.json on scheduled runs
+        type: boolean
+        default: false
+
+permissions: {}
+
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Fetch depinv tools
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: reihlinstinct/dependency-inventory
+          ref: v1
+          path: .depinv
+          persist-credentials: false
+      - name: Generate inventory
+        run: python3 .depinv/tools/generate_inventory.py --repo . --name "$GITHUB_REPOSITORY" --out deps-inventory.json
+      - name: Scan against OSV
+        run: python3 .depinv/tools/scan_inventory.py --inventory deps-inventory.json --out vuln-report.md --title "Vulnerability scan - $GITHUB_REPOSITORY"
+      - name: OSV-Scanner
+        uses: google/osv-scanner-action@b1d267aea5211fa648d9d442fa64b90dbdcbdd36 # v2.7.0
+        continue-on-error: true
+        with:
+          scan-args: |-
+            --recursive
+            --format=sarif
+            --output=osv-results.sarif
+            ./
+      - name: Upload SARIF
+        if: github.event.repository.private == false
+        uses: github/codeql-action/upload-sarif@33d7b85da1a04171e211befe2c739303b9a4c066 # v4
+        continue-on-error: true
+        with:
+          sarif_file: osv-results.sarif
+      - name: Commit inventory
+        if: inputs.commit-inventory && github.event_name == 'schedule'
+        run: |
+          git config user.name "depinv-bot"
+          git config user.email "depinv-bot@users.noreply.github.com"
+          git add deps-inventory.json
+          if git diff --cached --quiet; then
+            echo "inventory unchanged"
+          else
+            git commit -m "chore: refresh deps-inventory.json (weekly scan)"
+            git push
+          fi
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0

@@ -1,0 +1,32 @@
+name: Vulnerability scan
+
+on:
+  pull_request:
+  schedule:
+    - cron: "23 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Generate inventory
+        run: python3 tools/generate_inventory.py --repo . --out deps-inventory.json
+      - name: Scan against OSV
+        run: python3 tools/scan_inventory.py --inventory deps-inventory.json --out vuln-report.md
+      - name: Commit inventory
+        if: github.event_name == 'schedule'
+        run: |
+          git config user.name "depinv-bot"
+          git config user.email "depinv-bot@users.noreply.github.com"
+          git add deps-inventory.json
+          if git diff --cached --quiet; then
+            echo "inventory unchanged"
+          else
+            git commit -m "chore: refresh deps-inventory.json (weekly scan)"
+            git push
+          fi
