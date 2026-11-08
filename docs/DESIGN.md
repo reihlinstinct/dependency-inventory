@@ -72,3 +72,26 @@ dormant until the Actions minutes reset (2026-12-01).
 - OSV or GitHub API transient errors: retried with backoff (4 attempts).
 - The scan never blocks merges on its own; `dependency-review` on PRs is the
   blocking layer (default config), OSV findings surface in the tracking issue.
+
+## Scheduled safe-update process
+
+Weekly process that proposes dependency updates, but only to versions with
+no known vulnerabilities (user decision 2026-11-08; design issue #2).
+
+- **Cadence:** weekly, staggered after the Monday org aggregation.
+- **Unit:** one update PR per repo per ecosystem (Dependabot-style), opened
+  by a central workflow.
+- **Safety gate:** a target version is eligible only when OSV, the GitHub
+  Advisory Database, and the ecosystem advisory source (PyPA advisory DB
+  for pip, `npm audit` for npm) all report no known vulnerability for that
+  exact version. Vulnerable or unknown targets are skipped and logged.
+- **Hash-locked pip:** `requirements*.txt` pinned with `--hash` stay
+  hash-locked. The update re-locks hashes for the new version and the PR
+  documents the re-lock steps.
+- **Merge rules:** normal rules apply - green CI plus independent review,
+  no bypass. The process proposes; the standard review pipeline merges.
+- **Rollout order:** public repos first; private repos join after
+  2026-12-01 (Actions minutes freeze).
+- **Relationship to Dependabot:** Dependabot security updates stay enabled
+  as an independent fast path for urgent fixes; this process handles
+  routine freshness with the never-to-a-vulnerable-version guarantee.
