@@ -1,5 +1,4 @@
 {
- "generated_at": "2026-11-08T10:38:00+00:00",
  "public_only": true,
  "packages": [
   {
@@ -19,42 +18,6 @@
    "repo": ".github",
    "file": ".github/workflows/ci.yml",
    "direct": true
-  },
-  {
-   "ecosystem": "npm",
-   "package": "@playwright/test",
-   "version": null,
-   "spec": "^1.48.0",
-   "repo": "bikes-for-jerusalem",
-   "file": "package.json",
-   "direct": true
-  },
-  {
-   "ecosystem": "npm",
-   "package": "@playwright/test",
-   "version": "1.64.1",
-   "spec": null,
-   "repo": "bikes-for-jerusalem",
-   "file": "package-lock.json",
-   "direct": true
-  },
-  {
-   "ecosystem": "npm",
-   "package": "playwright",
-   "version": "1.64.1",
-   "spec": null,
-   "repo": "bikes-for-jerusalem",
-   "file": "package-lock.json",
-   "direct": false
-  },
-  {
-   "ecosystem": "npm",
-   "package": "playwright-core",
-   "version": "1.64.1",
-   "spec": null,
-   "repo": "bikes-for-jerusalem",
-   "file": "package-lock.json",
-   "direct": false
   },
   {
    "ecosystem": "GitHub Actions",
@@ -156,6 +119,42 @@
    "direct": true
   },
   {
+   "ecosystem": "npm",
+   "package": "@playwright/test",
+   "version": null,
+   "spec": "^1.48.0",
+   "repo": "bikes-for-jerusalem",
+   "file": "package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "@playwright/test",
+   "version": "1.64.1",
+   "spec": null,
+   "repo": "bikes-for-jerusalem",
+   "file": "package-lock.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright",
+   "version": "1.64.1",
+   "spec": null,
+   "repo": "bikes-for-jerusalem",
+   "file": "package-lock.json",
+   "direct": false
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright-core",
+   "version": "1.64.1",
+   "spec": null,
+   "repo": "bikes-for-jerusalem",
+   "file": "package-lock.json",
+   "direct": false
+  },
+  {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
@@ -169,6 +168,15 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "collaboration-docs",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c9a60fadeecab75bde9674e96b3d76a5e2fe6645",
    "repo": "collaboration-docs",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -219,39 +227,102 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "pytest",
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": ">=8.0",
-   "repo": "electricity-plan-calculator",
-   "file": "pyproject.toml",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "collaboration-docs",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "pytest-cov",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
-   "spec": ">=5.0",
-   "repo": "electricity-plan-calculator",
-   "file": "pyproject.toml",
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/aggregate.yml",
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "ruff",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
-   "spec": ">=0.6",
-   "repo": "electricity-plan-calculator",
-   "file": "pyproject.toml",
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/ci.yml",
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "pip-audit",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
-   "spec": ">=2.7",
-   "repo": "electricity-plan-calculator",
-   "file": "pyproject.toml",
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "google/osv-scanner-action",
+   "version": null,
+   "spec": "b1d267aea5211fa648d9d442fa64b90dbdcbdd36",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/dependency-review-action",
+   "version": null,
+   "spec": "a1d282b36b6f3519aa1f3fc636f609c47dddb294",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -304,6 +375,24 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -373,6 +462,51 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=8.0",
+   "repo": "electricity-plan-calculator",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest-cov",
+   "version": null,
+   "spec": ">=5.0",
+   "repo": "electricity-plan-calculator",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ruff",
+   "version": null,
+   "spec": ">=0.6",
+   "repo": "electricity-plan-calculator",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pip-audit",
+   "version": null,
+   "spec": ">=2.7",
+   "repo": "electricity-plan-calculator",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -427,6 +561,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -444,33 +587,6 @@
    "direct": true
   },
   {
-   "ecosystem": "npm",
-   "package": "playwright-webkit",
-   "version": null,
-   "spec": "1.64.1",
-   "repo": "gemel-what-if",
-   "file": "package.json",
-   "direct": true
-  },
-  {
-   "ecosystem": "npm",
-   "package": "playwright-core",
-   "version": "1.64.1",
-   "spec": null,
-   "repo": "gemel-what-if",
-   "file": "package-lock.json",
-   "direct": false
-  },
-  {
-   "ecosystem": "npm",
-   "package": "playwright-webkit",
-   "version": "1.64.1",
-   "spec": null,
-   "repo": "gemel-what-if",
-   "file": "package-lock.json",
-   "direct": true
-  },
-  {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
@@ -547,6 +663,24 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "gemel-what-if",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -693,6 +827,744 @@
    "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
    "repo": "gemel-what-if",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright-webkit",
+   "version": null,
+   "spec": "1.64.1",
+   "repo": "gemel-what-if",
+   "file": "package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright-core",
+   "version": "1.64.1",
+   "spec": null,
+   "repo": "gemel-what-if",
+   "file": "package-lock.json",
+   "direct": false
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright-webkit",
+   "version": "1.64.1",
+   "spec": null,
+   "repo": "gemel-what-if",
+   "file": "package-lock.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/bounded-tree-snapshot.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/bounded-tree-snapshot.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": "7",
+   "spec": "v7",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": "7",
+   "spec": "v7",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": "7",
+   "spec": "v7",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": "7",
+   "spec": "v7",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": "7",
+   "spec": "v7",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/geni-protected-household-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/geni-protected-household-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/geni-union-child-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/geni-union-child-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/guarded-family-additions.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/guarded-family-additions.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/household-precreate-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/household-precreate-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/household-relationship-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/household-relationship-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/name-update-child-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/name-update-child-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/oauth-bootstrap-test.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/oauth-bootstrap-test.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/oauth-bootstrap-test.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/oauth-bootstrap-test.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/one-time-parent-pilot.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/one-time-parent-pilot.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/parent-household-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/parent-household-read.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/parent-pair-batch-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/parent-pair-batch-create.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-diagnostics.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-diagnostics.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-matches.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-matches.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-profile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-profile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-reconcile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-reconcile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-verify.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/pilot-get-verify.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-alias-append.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-alias-append.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-english-name-update.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-english-name-update.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-parent-addition.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-parent-addition.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-profile-name-update.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-profile-name-update.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-relative-siblings.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-relative-siblings.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-source-approval.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/protected-source-approval.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/publish-image.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/publish-image.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/publish-image.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/reconcile-parent-addition.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/reconcile-parent-addition.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/relative-baseline.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/relative-baseline.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "ossf/scorecard-action",
+   "version": null,
+   "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/secondary-readonly-evidence.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/secondary-readonly-evidence.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/secondary-readonly-evidence.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/source-read-reconcile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/source-read-reconcile.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/source-slot-bridge.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/source-slot-bridge.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/token-probe.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/token-probe.yml",
    "direct": true
   },
   {
@@ -1699,780 +2571,6 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/bounded-tree-snapshot.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/bounded-tree-snapshot.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": "7",
-   "spec": "v7",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": "7",
-   "spec": "v7",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": "7",
-   "spec": "v7",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": "7",
-   "spec": "v7",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": "7",
-   "spec": "v7",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/geni-protected-household-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/geni-protected-household-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/geni-union-child-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/geni-union-child-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/guarded-family-additions.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/guarded-family-additions.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/household-precreate-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/household-precreate-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/household-relationship-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/household-relationship-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/name-update-child-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/name-update-child-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/oauth-bootstrap-test.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/oauth-bootstrap-test.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/oauth-bootstrap-test.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/oauth-bootstrap-test.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/one-time-parent-pilot.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/one-time-parent-pilot.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/parent-household-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/parent-household-read.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/parent-pair-batch-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/parent-pair-batch-create.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-diagnostics.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-diagnostics.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-matches.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-matches.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-profile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-profile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-reconcile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-reconcile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-verify.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/pilot-get-verify.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-alias-append.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-alias-append.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-english-name-update.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-english-name-update.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-parent-addition.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-parent-addition.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-profile-name-update.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-profile-name-update.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-relative-siblings.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-relative-siblings.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-source-approval.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/protected-source-approval.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/publish-image.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/publish-image.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/publish-image.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/reconcile-parent-addition.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/reconcile-parent-addition.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/relative-baseline.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/relative-baseline.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "ossf/scorecard-action",
-   "version": null,
-   "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/secondary-readonly-evidence.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/secondary-readonly-evidence.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/secondary-readonly-evidence.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/source-read-reconcile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/source-read-reconcile.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/source-slot-bridge.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/source-slot-bridge.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/token-probe.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "geni-uploader",
-   "file": ".github/workflows/token-probe.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "ezdxf",
-   "version": null,
-   "spec": ">=1.4.5",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "shapely",
-   "version": null,
-   "spec": ">=2.2.0",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pyproj",
-   "version": null,
-   "spec": ">=3.8.0",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pyproj",
-   "version": null,
-   "spec": ">=3.5",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "openpyxl",
-   "version": null,
-   "spec": ">=3.1.5",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest",
-   "version": null,
-   "spec": ">=9.2.0",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "Pillow",
-   "version": null,
-   "spec": ">=13.0.0",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "markdown",
-   "version": null,
-   "spec": ">=3.11.2",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pyyaml",
-   "version": null,
-   "spec": ">=6.0.3",
-   "repo": "ginot-hair-plans",
-   "file": "requirements.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/audit-result.yml",
    "direct": true
@@ -2662,6 +2760,24 @@
    "package": "actions/setup-example",
    "version": "1",
    "spec": "v1",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -3100,6 +3216,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3132,6 +3257,159 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/weekly-refresh.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ezdxf",
+   "version": null,
+   "spec": ">=1.4.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "shapely",
+   "version": null,
+   "spec": ">=2.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": null,
+   "spec": ">=3.8.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": null,
+   "spec": ">=3.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "openpyxl",
+   "version": null,
+   "spec": ">=3.1.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=9.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "Pillow",
+   "version": null,
+   "spec": ">=13.0.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "markdown",
+   "version": null,
+   "spec": ">=3.11.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyyaml",
+   "version": null,
+   "spec": ">=6.0.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/layout.yml",
    "direct": true
   },
   {
@@ -3193,60 +3471,6 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/codeql.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "givatayim-106-adapter",
-   "file": ".github/workflows/layout.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "heb-google-cal",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -3289,6 +3513,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "24c54180a607b1449ed407dd24f251e4e9147c8d",
+   "repo": "heb-google-cal",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3301,6 +3534,15 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/docs.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c9a60fadeecab75bde9674e96b3d76a5e2fe6645",
    "repo": "hue-energy-estimates",
    "file": ".github/workflows/docs.yml",
    "direct": true
@@ -3351,93 +3593,12 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "numpy",
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": ">=1.24",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pillow",
-   "version": null,
-   "spec": ">=10.0",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "opencv-python-headless",
-   "version": null,
-   "spec": ">=4.8",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "scikit-image",
-   "version": null,
-   "spec": ">=0.22",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "transformers",
-   "version": null,
-   "spec": ">=4.45",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "kraken",
-   "version": null,
-   "spec": ">=5.2",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "safetensors",
-   "version": null,
-   "spec": "~=0.7",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "click",
-   "version": null,
-   "spec": ">=8.1",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest",
-   "version": null,
-   "spec": ">=8",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "mypy",
-   "version": null,
-   "spec": ">=1.10",
-   "repo": "kurrent-reader",
-   "file": "pyproject.toml",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -3558,6 +3719,96 @@
    "direct": true
   },
   {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": null,
+   "spec": ">=1.24",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pillow",
+   "version": null,
+   "spec": ">=10.0",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "opencv-python-headless",
+   "version": null,
+   "spec": ">=4.8",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "scikit-image",
+   "version": null,
+   "spec": ">=0.22",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "transformers",
+   "version": null,
+   "spec": ">=4.45",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "kraken",
+   "version": null,
+   "spec": ">=5.2",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "safetensors",
+   "version": null,
+   "spec": "~=0.7",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "click",
+   "version": null,
+   "spec": ">=8.1",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=8",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "mypy",
+   "version": null,
+   "spec": ">=1.10",
+   "repo": "kurrent-reader",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
@@ -3658,6 +3909,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3672,15 +3932,6 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "mitsubishi-echonet",
    "file": ".github/workflows/wiki-sync.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "Pillow",
-   "version": "13.0.0",
-   "spec": "==13.0.0",
-   "repo": "municipal-photo-model",
-   "file": "requirements-test.txt",
    "direct": true
   },
   {
@@ -3699,6 +3950,15 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "municipal-photo-model",
    "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "Pillow",
+   "version": "13.0.0",
+   "spec": "==13.0.0",
+   "repo": "municipal-photo-model",
+   "file": "requirements-test.txt",
    "direct": true
   },
   {
@@ -3784,6 +4044,33 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3819,48 +4106,12 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "numpy",
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": ">=1.24",
-   "repo": "parking-category-model",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pillow",
-   "version": null,
-   "spec": ">=10.0",
-   "repo": "parking-category-model",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "tensorflow",
-   "version": null,
-   "spec": ">=2.15",
-   "repo": "parking-category-model",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest",
-   "version": null,
-   "spec": ">=8",
-   "repo": "parking-category-model",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "ruff",
-   "version": null,
-   "spec": ">=0.5",
-   "repo": "parking-category-model",
-   "file": "pyproject.toml",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -3963,29 +4214,56 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "Pillow",
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": ">=13",
-   "repo": "parking-report-helper",
+   "spec": "24c54180a607b1449ed407dd24f251e4e9147c8d",
+   "repo": "parking-category-model",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": null,
+   "spec": ">=1.24",
+   "repo": "parking-category-model",
    "file": "pyproject.toml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
-   "package": "pyproj",
+   "package": "pillow",
    "version": null,
-   "spec": ">=3.6",
-   "repo": "parking-report-helper",
+   "spec": ">=10.0",
+   "repo": "parking-category-model",
    "file": "pyproject.toml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
-   "package": "filelock",
+   "package": "tensorflow",
    "version": null,
-   "spec": ">=3.13",
-   "repo": "parking-report-helper",
+   "spec": ">=2.15",
+   "repo": "parking-category-model",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=8",
+   "repo": "parking-category-model",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ruff",
+   "version": null,
+   "spec": ">=0.5",
+   "repo": "parking-category-model",
    "file": "pyproject.toml",
    "direct": true
   },
@@ -4030,6 +4308,24 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "parking-report-helper",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -4126,20 +4422,11 @@
   },
   {
    "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -4174,60 +4461,6 @@
    "package": "actions/setup-python",
    "version": null,
    "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "parking-report-helper",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-report-helper",
    "file": ".github/workflows/tests.yml",
    "direct": true
@@ -4260,39 +4493,102 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "cryptography",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
-   "spec": ">=50.0",
-   "repo": "parking-report-intake",
-   "file": "requirements-test.txt",
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/tests.yml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
    "package": "Pillow",
    "version": null,
-   "spec": ">=12.3",
-   "repo": "parking-report-intake",
-   "file": "requirements-test.txt",
+   "spec": ">=13",
+   "repo": "parking-report-helper",
+   "file": "pyproject.toml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
-   "package": "pytest",
+   "package": "pyproj",
    "version": null,
-   "spec": ">=9",
-   "repo": "parking-report-intake",
-   "file": "requirements-test.txt",
+   "spec": ">=3.6",
+   "repo": "parking-report-helper",
+   "file": "pyproject.toml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
-   "package": "coverage",
+   "package": "filelock",
    "version": null,
-   "spec": ">=7",
-   "repo": "parking-report-intake",
-   "file": "requirements-test.txt",
+   "spec": ">=3.13",
+   "repo": "parking-report-helper",
+   "file": "pyproject.toml",
    "direct": true
   },
   {
@@ -4351,6 +4647,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "1fc58d04a4d4374f921bdac573c3811c240f9c26",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4442,19 +4747,37 @@
   {
    "ecosystem": "PyPI",
    "package": "cryptography",
-   "version": "50.0.2",
-   "spec": "==50.0.2",
-   "repo": "parking-reporter-app",
-   "file": "requirements.txt",
+   "version": null,
+   "spec": ">=50.0",
+   "repo": "parking-report-intake",
+   "file": "requirements-test.txt",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
-   "package": "pillow",
-   "version": "13.0.0",
-   "spec": "==13.0.0",
-   "repo": "parking-reporter-app",
-   "file": "requirements.txt",
+   "package": "Pillow",
+   "version": null,
+   "spec": ">=12.3",
+   "repo": "parking-report-intake",
+   "file": "requirements-test.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=9",
+   "repo": "parking-report-intake",
+   "file": "requirements-test.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "coverage",
+   "version": null,
+   "spec": ">=7",
+   "repo": "parking-report-intake",
+   "file": "requirements-test.txt",
    "direct": true
   },
   {
@@ -4648,6 +4971,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4671,6 +5003,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/wiki-sync.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "cryptography",
+   "version": "50.0.2",
+   "spec": "==50.0.2",
+   "repo": "parking-reporter-app",
+   "file": "requirements.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pillow",
+   "version": "13.0.0",
+   "spec": "==13.0.0",
+   "repo": "parking-reporter-app",
+   "file": "requirements.txt",
    "direct": true
   },
   {
@@ -4723,6 +5073,15 @@
    "package": "ossf/scorecard-action",
    "version": null,
    "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "parking-reporter-ios",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -4882,20 +5241,11 @@
   },
   {
    "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "parking-stats",
-   "file": ".github/workflows/tests.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "parking-stats",
-   "file": ".github/workflows/tests.yml",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -4971,93 +5321,21 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "bidict",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
-   "spec": ">=0.23.0",
-   "repo": "pyhems",
-   "file": "pyproject.toml",
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-stats",
+   "file": ".github/workflows/tests.yml",
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "mypy",
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
    "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "openpyxl",
-   "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "prek",
-   "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest",
-   "version": null,
-   "spec": ">=7.0",
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest-asyncio",
-   "version": null,
-   "spec": ">=0.21",
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest-cov",
-   "version": null,
-   "spec": ">=4.0",
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "PyYAML",
-   "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "types-openpyxl",
-   "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "types-PyYAML",
-   "version": null,
-   "spec": null,
-   "repo": "pyhems",
-   "file": "pyproject.toml",
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-stats",
+   "file": ".github/workflows/tests.yml",
    "direct": true
   },
   {
@@ -5241,6 +5519,96 @@
    "direct": true
   },
   {
+   "ecosystem": "PyPI",
+   "package": "bidict",
+   "version": null,
+   "spec": ">=0.23.0",
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "mypy",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "openpyxl",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "prek",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=7.0",
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest-asyncio",
+   "version": null,
+   "spec": ">=0.21",
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest-cov",
+   "version": null,
+   "spec": ">=4.0",
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "PyYAML",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "types-openpyxl",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "types-PyYAML",
+   "version": null,
+   "spec": null,
+   "repo": "pyhems",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
@@ -5256,6 +5624,213 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "repo-checks",
    "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/collector.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/collector.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/collector.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/generate-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/generate-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/generate-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/generate-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/install-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/install-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/install-rules.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/refresh-fixture.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/refresh-fixture.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/refresh-fixture.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/refresh-fixture.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "ossf/scorecard-action",
+   "version": null,
+   "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -6387,204 +6962,6 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/collector.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/collector.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/collector.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/generate-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/generate-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/generate-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/generate-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/install-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/install-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/install-rules.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/layout.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/refresh-fixture.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/refresh-fixture.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/upload-artifact",
-   "version": null,
-   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/refresh-fixture.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/refresh-fixture.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "ossf/scorecard-action",
-   "version": null,
-   "spec": "fa7117db83c52d787ae5a89f350999701505d78e",
-   "repo": "shabbat-fridge",
-   "file": ".github/workflows/scorecard.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
    "spec": "11bd71901bbe5b1630ceea73d27597364c9af683",
    "repo": "tab-collaboration-playbook",
    "file": ".github/workflows/docs.yml",
@@ -6596,6 +6973,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "tab-collaboration-playbook",
+   "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": "7",
+   "spec": "v7",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "wa-headless-cli",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -7754,60 +8149,6 @@
   {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
-   "version": "7",
-   "spec": "v7",
-   "repo": "wa-headless-cli",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
-   "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-   "repo": "wa-headless-cli",
-   "file": ".github/workflows/layout.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest",
-   "version": "9.2.0",
-   "spec": "==9.2.0",
-   "repo": "wd-face-recognition",
-   "file": "requirements-dev.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "pytest-cov",
-   "version": "7.1.0",
-   "spec": "==7.1.0",
-   "repo": "wd-face-recognition",
-   "file": "requirements-dev.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "ruff",
-   "version": "0.17.3",
-   "spec": "==0.17.3",
-   "repo": "wd-face-recognition",
-   "file": "requirements-dev.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "PyPI",
-   "package": "bandit",
-   "version": "1.9.4",
-   "spec": "==1.9.4",
-   "repo": "wd-face-recognition",
-   "file": "requirements-dev.txt",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wd-face-recognition",
@@ -8085,21 +8426,48 @@
    "direct": true
   },
   {
-   "ecosystem": "PyPI",
-   "package": "requests",
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": ">=2.31",
-   "repo": "website-e2e-checks",
-   "file": "pyproject.toml",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
    "ecosystem": "PyPI",
    "package": "pytest",
-   "version": null,
-   "spec": ">=8",
-   "repo": "website-e2e-checks",
-   "file": "pyproject.toml",
+   "version": "9.2.0",
+   "spec": "==9.2.0",
+   "repo": "wd-face-recognition",
+   "file": "requirements-dev.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest-cov",
+   "version": "7.1.0",
+   "spec": "==7.1.0",
+   "repo": "wd-face-recognition",
+   "file": "requirements-dev.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ruff",
+   "version": "0.17.3",
+   "spec": "==0.17.3",
+   "repo": "wd-face-recognition",
+   "file": "requirements-dev.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "bandit",
+   "version": "1.9.4",
+   "spec": "==1.9.4",
+   "repo": "wd-face-recognition",
+   "file": "requirements-dev.txt",
    "direct": true
   },
   {
@@ -8203,20 +8571,11 @@
   },
   {
    "ecosystem": "GitHub Actions",
-   "package": "actions/checkout",
+   "package": "github/codeql-action",
    "version": null,
-   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "website-e2e-checks",
-   "file": ".github/workflows/validate.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "actions/setup-python",
-   "version": null,
-   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
-   "repo": "website-e2e-checks",
-   "file": ".github/workflows/validate.yml",
+   "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
   {
@@ -8244,6 +8603,42 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "website-e2e-checks",
    "file": ".github/workflows/validate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/validate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/validate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "requests",
+   "version": null,
+   "spec": ">=2.31",
+   "repo": "website-e2e-checks",
+   "file": "pyproject.toml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": null,
+   "spec": ">=8",
+   "repo": "website-e2e-checks",
+   "file": "pyproject.toml",
    "direct": true
   }
  ]
