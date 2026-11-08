@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
-      security-events: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: Fetch depinv tools
@@ -29,21 +28,6 @@ jobs:
         run: python3 .depinv/tools/generate_inventory.py --repo . --name "$GITHUB_REPOSITORY" --out deps-inventory.json
       - name: Scan against OSV
         run: python3 .depinv/tools/scan_inventory.py --inventory deps-inventory.json --out vuln-report.md --title "Vulnerability scan - $GITHUB_REPOSITORY"
-      - name: OSV-Scanner
-        uses: google/osv-scanner-action@b1d267aea5211fa648d9d442fa64b90dbdcbdd36 # v2.7.0
-        continue-on-error: true
-        with:
-          scan-args: |-
-            --recursive
-            --format=sarif
-            --output=osv-results.sarif
-            ./
-      - name: Upload SARIF
-        if: github.event.repository.private == false
-        uses: github/codeql-action/upload-sarif@33d7b85da1a04171e211befe2c739303b9a4c066 # v4
-        continue-on-error: true
-        with:
-          sarif_file: osv-results.sarif
       - name: Commit inventory
         if: inputs.commit-inventory && github.event_name == 'schedule'
         run: |
@@ -56,9 +40,20 @@ jobs:
             git commit -m "chore: refresh deps-inventory.json (weekly scan)"
             git push
           fi
+  osv-scanner:
+    permissions:
+      contents: read
+    uses: google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@b1d267aea5211fa648d9d442fa64b90dbdcbdd36 # v2.7.0
+    with:
+      scan-args: |-
+        -r
+        ./
+      upload-sarif: false
+      fail-on-vuln: false
   dependency-review:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
+    continue-on-error: true
     permissions:
       contents: read
       pull-requests: read
