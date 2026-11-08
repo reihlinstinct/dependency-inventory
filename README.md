@@ -27,7 +27,7 @@ need a fix.
 flowchart LR
     subgraph Each repo
         A[thin workflow<br/>vuln-scan.yml] --> B[reusable workflow<br/>scan-reusable.yml]
-        B --> C[deps-inventory.json<br/>committed weekly]
+        B --> C[deps-inventory.json<br/>published weekly as artifact]
         B --> D[OSV scan +<br/>dependency-review on PRs]
     end
     subgraph Central repo
@@ -60,7 +60,7 @@ jobs:
   scan:
     uses: reihlinstinct/dependency-inventory/.github/workflows/scan-reusable.yml@v1
     permissions:
-      contents: write
+      contents: read
 ```
 
 ## Privacy
