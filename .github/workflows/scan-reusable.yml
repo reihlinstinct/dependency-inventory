@@ -8,13 +8,13 @@ on:
         type: boolean
         default: false
 
-permissions: {}
+# No top-level or scan-job permissions block: called-workflow jobs inherit
+# the caller job's grants (a called workflow can downgrade, never elevate).
+# Callers grant contents:read on PR runs and contents:write on schedule.
 
 jobs:
   scan:
     runs-on: ubuntu-24.04
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: Fetch depinv tools
