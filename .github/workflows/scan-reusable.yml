@@ -11,8 +11,11 @@ on:
 jobs:
   scan:
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
       - name: Fetch depinv tools
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -36,6 +39,7 @@ jobs:
   dependency-review:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     continue-on-error: true
     # No permissions block: the job inherits the caller's grants (contents:read
     # + pull-requests:read on PR runs). Declaring them here makes callers that
