@@ -24,6 +24,42 @@
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": ".github",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": ".github",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": ".github",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": ".github",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -116,6 +152,42 @@
    "spec": "368f82528645a54fb793d4d04e342629a3f51346",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -237,6 +309,24 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "collaboration-docs",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "collaboration-docs",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -268,6 +358,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "dependency-inventory",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
    "file": ".github/workflows/scan-reusable.yml",
    "direct": true
   },
@@ -282,18 +390,9 @@
   },
   {
    "ecosystem": "GitHub Actions",
-   "package": "google/osv-scanner-action",
+   "package": "actions/upload-artifact",
    "version": null,
-   "spec": "b1d267aea5211fa648d9d442fa64b90dbdcbdd36",
-   "repo": "dependency-inventory",
-   "file": ".github/workflows/scan-reusable.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
-   "package": "github/codeql-action",
-   "version": null,
-   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
    "repo": "dependency-inventory",
    "file": ".github/workflows/scan-reusable.yml",
    "direct": true
@@ -376,6 +475,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "electricity-plan-calculator",
    "file": ".github/workflows/codeql.yml",
    "direct": true
   },
@@ -448,6 +565,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "electricity-plan-calculator",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
@@ -467,6 +602,24 @@
    "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -511,6 +664,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "free-sidewalks-stats",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -530,6 +701,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "free-sidewalks-stats",
    "file": ".github/workflows/manual-gpg-signing.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -588,9 +777,45 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
    "repo": "gemel-what-if",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -642,20 +867,20 @@
   },
   {
    "ecosystem": "GitHub Actions",
-   "package": "actions/setup-node",
-   "version": null,
-   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
-   "repo": "gemel-what-if",
-   "file": ".github/workflows/ci.yml",
-   "direct": true
-  },
-  {
-   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "gemel-what-if",
-   "file": ".github/workflows/ci.yml",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/code-layout.yml",
    "direct": true
   },
   {
@@ -808,6 +1033,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "gemel-what-if",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
@@ -836,6 +1079,24 @@
    "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "gemel-what-if",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -997,6 +1258,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "geni-uploader",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "geni-uploader",
    "file": ".github/workflows/geni-protected-household-create.yml",
    "direct": true
   },
@@ -1565,6 +1844,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "geni-uploader",
    "file": ".github/workflows/token-probe.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -2768,7 +3065,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -2777,7 +3074,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -3218,9 +3515,27 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -3326,7 +3641,7 @@
    "ecosystem": "PyPI",
    "package": "markdown",
    "version": null,
-   "spec": ">=3.11.2",
+   "spec": ">=3.11.3",
    "repo": "ginot-hair-plans",
    "file": "requirements.txt",
    "direct": true
@@ -3413,6 +3728,42 @@
    "direct": true
   },
   {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
    "ecosystem": "PyPI",
    "package": "playwright",
    "version": "1.64.1",
@@ -3481,6 +3832,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "heb-google-cal",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "heb-google-cal",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "heb-google-cal",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -3518,6 +3887,42 @@
    "spec": "24c54180a607b1449ed407dd24f251e4e9147c8d",
    "repo": "heb-google-cal",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "heb-google-cal",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "heb-google-cal",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/code-layout.yml",
    "direct": true
   },
   {
@@ -3603,11 +4008,65 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "kurrent-reader",
    "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -3716,6 +4175,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "kurrent-reader",
    "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -3877,7 +4354,43 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "mitsubishi-echonet",
    "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -3918,6 +4431,24 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3932,6 +4463,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "mitsubishi-echonet",
    "file": ".github/workflows/wiki-sync.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/code-layout.yml",
    "direct": true
   },
   {
@@ -3949,7 +4498,43 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "municipal-photo-model",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "municipal-photo-model",
    "file": ".github/workflows/tests.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -4084,6 +4669,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parcel-coverage-audit",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
@@ -4112,6 +4715,24 @@
    "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "parcel-coverage-audit",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -4192,6 +4813,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-category-model",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-category-model",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-category-model",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
@@ -4217,9 +4856,27 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "24c54180a607b1449ed407dd24f251e4e9147c8d",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "parking-category-model",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-category-model",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-category-model",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -4354,6 +5011,15 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-report-helper",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
    "file": ".github/workflows/gitleaks.yml",
    "direct": true
   },
@@ -4382,6 +5048,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-report-helper",
    "file": ".github/workflows/manual-gpg-signing.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -4565,6 +5249,24 @@
    "direct": true
   },
   {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-report-helper",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
    "ecosystem": "PyPI",
    "package": "Pillow",
    "version": null,
@@ -4616,6 +5318,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-report-intake",
    "file": ".github/workflows/manual-gpg-signing.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -4745,6 +5465,24 @@
    "direct": true
   },
   {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
    "ecosystem": "PyPI",
    "package": "cryptography",
    "version": null,
@@ -4827,6 +5565,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/android.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4876,6 +5623,15 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
+   "file": ".github/workflows/city-readonly-checks.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -4885,6 +5641,42 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
+   "file": ".github/workflows/m0-engine-trial.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "b843ebf9b913146b38da2eaa7aeddf76074ae1ad",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/m0-engine-trial.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/m0-engine-trial.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "b843ebf9b913146b38da2eaa7aeddf76074ae1ad",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/m0-engine-trial.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
    "file": ".github/workflows/manual-gpg-signing.yml",
    "direct": true
   },
@@ -4895,6 +5687,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/manual-gpg-signing.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -4989,6 +5799,24 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -5003,6 +5831,42 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/wiki-sync.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "cffi",
+   "version": "2.1.1",
+   "spec": "==2.1.1",
+   "repo": "parking-reporter-app",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "cryptography",
+   "version": "50.0.2",
+   "spec": "==50.0.2",
+   "repo": "parking-reporter-app",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pillow",
+   "version": "13.0.0",
+   "spec": "==13.0.0",
+   "repo": "parking-reporter-app",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pycparser",
+   "version": "3.12",
+   "spec": "==3.12",
+   "repo": "parking-reporter-app",
+   "file": "requirements-lock.txt",
    "direct": true
   },
   {
@@ -5056,6 +5920,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-ios",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-ios",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
   },
@@ -5102,6 +5984,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-ios",
    "file": ".github/workflows/signing-safety.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -5192,6 +6092,24 @@
    "spec": "d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
    "repo": "parking-stats",
    "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-stats",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "parking-stats",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -5340,6 +6258,24 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-stats",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "parking-stats",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "df4cb1c069e1874edd31b4311f1884172cec0e10",
@@ -5443,6 +6379,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "pyhems",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "pyhems",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "pyhems",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -5516,6 +6470,24 @@
    "spec": "b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
    "repo": "pyhems",
    "file": ".github/workflows/release.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "pyhems",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "pyhems",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -5628,6 +6600,24 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "repo-checks",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "repo-checks",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -5660,6 +6650,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "shabbat-fridge",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/code-layout.yml",
    "direct": true
   },
   {
@@ -5767,6 +6775,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "shabbat-fridge",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
    "file": ".github/workflows/refresh-fixture.yml",
    "direct": true
   },
@@ -5831,6 +6857,24 @@
    "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
    "repo": "shabbat-fridge",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -6979,6 +8023,42 @@
   {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "tab-collaboration-playbook",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "tab-collaboration-playbook",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "tab-collaboration-playbook",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "tab-collaboration-playbook",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": "7",
    "spec": "v7",
    "repo": "wa-headless-cli",
@@ -6992,6 +8072,42 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wa-headless-cli",
    "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -8323,6 +9439,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wd-face-recognition",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "wd-face-recognition",
    "file": ".github/workflows/demo.yml",
    "direct": true
   },
@@ -8382,6 +9516,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "actions/cache",
+   "version": null,
+   "spec": "55cc8345863c7cc4c66a329aec7e433d2d1c52a9",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/package.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/upload-artifact",
    "version": null,
    "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
@@ -8396,6 +9539,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wd-face-recognition",
    "file": ".github/workflows/package.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -8429,9 +9590,27 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "wd-face-recognition",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -8539,7 +9718,43 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "website-e2e-checks",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "website-e2e-checks",
    "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/privacy-guard.yml",
    "direct": true
   },
   {
@@ -8621,6 +9836,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "website-e2e-checks",
    "file": ".github/workflows/validate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
