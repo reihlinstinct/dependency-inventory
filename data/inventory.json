@@ -21,6 +21,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": ".github",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -61,6 +70,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/ci.yml",
    "direct": true
   },
@@ -68,7 +95,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-node",
    "version": null,
-   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -86,7 +113,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-node",
    "version": null,
-   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/ci.yml",
    "direct": true
@@ -98,6 +125,15 @@
    "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "bikes-for-jerusalem",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -122,7 +158,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-node",
    "version": null,
-   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
    "repo": "bikes-for-jerusalem",
    "file": ".github/workflows/pages.yml",
    "direct": true
@@ -194,7 +230,7 @@
    "ecosystem": "npm",
    "package": "@playwright/test",
    "version": null,
-   "spec": "^1.48.0",
+   "spec": "^1.65.0",
    "repo": "bikes-for-jerusalem",
    "file": "package.json",
    "direct": true
@@ -202,7 +238,7 @@
   {
    "ecosystem": "npm",
    "package": "@playwright/test",
-   "version": "1.64.1",
+   "version": "1.65.0",
    "spec": null,
    "repo": "bikes-for-jerusalem",
    "file": "package-lock.json",
@@ -211,7 +247,7 @@
   {
    "ecosystem": "npm",
    "package": "playwright",
-   "version": "1.64.1",
+   "version": "1.65.0",
    "spec": null,
    "repo": "bikes-for-jerusalem",
    "file": "package-lock.json",
@@ -220,7 +256,7 @@
   {
    "ecosystem": "npm",
    "package": "playwright-core",
-   "version": "1.64.1",
+   "version": "1.65.0",
    "spec": null,
    "repo": "bikes-for-jerusalem",
    "file": "package-lock.json",
@@ -251,6 +287,15 @@
    "spec": "c9a60fadeecab75bde9674e96b3d76a5e2fe6645",
    "repo": "collaboration-docs",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "collaboration-docs",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -345,6 +390,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -430,6 +484,24 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "electricity-plan-calculator",
    "file": ".github/workflows/ci.yml",
    "direct": true
   },
@@ -500,7 +572,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -509,7 +581,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/codeql.yml",
    "direct": true
@@ -530,6 +602,15 @@
    "spec": "a1d282b36b6f3519aa1f3fc636f609c47dddb294",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/dependency-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "electricity-plan-calculator",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -599,7 +680,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "electricity-plan-calculator",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -678,6 +759,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "free-sidewalks-stats",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -752,7 +842,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "free-sidewalks-stats",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -791,6 +881,24 @@
    "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
    "repo": "free-sidewalks-stats",
    "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/a11y.yml",
    "direct": true
   },
   {
@@ -944,6 +1052,15 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "gemel-what-if",
    "file": ".github/workflows/dependency-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "gemel-what-if",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -1040,7 +1157,7 @@
    "ecosystem": "GitHub Actions",
    "package": "reihlinstinct/repo-checks",
    "version": null,
-   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "spec": "04e60256af9fa84cb134111217e5f20c19da87dd",
    "repo": "gemel-what-if",
    "file": ".github/workflows/privacy-guard.yml",
    "direct": true
@@ -1124,6 +1241,60 @@
    "spec": null,
    "repo": "gemel-what-if",
    "file": "package-lock.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/review-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/dependency-inventory",
+   "version": null,
+   "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
+   "repo": "gemini-pr-review",
+   "file": ".github/workflows/vuln-scan.yml",
    "direct": true
   },
   {
@@ -1268,6 +1439,15 @@
    "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
    "repo": "geni-uploader",
    "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "geni-uploader",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -1760,7 +1940,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "geni-uploader",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -1823,7 +2003,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-node",
    "version": null,
-   "spec": "49933ea5288caeca8642d1e84afbd3f7d6820020",
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
    "repo": "geni-uploader",
    "file": ".github/workflows/source-slot-bridge.yml",
    "direct": true
@@ -1966,8 +2146,8 @@
   {
    "ecosystem": "PyPI",
    "package": "coverage",
-   "version": "7.17.0",
-   "spec": "==7.17.0",
+   "version": "7.17.2",
+   "spec": "==7.17.2",
    "repo": "geni-uploader",
    "file": "requirements-dev.txt",
    "direct": true
@@ -3108,6 +3288,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3266,6 +3455,78 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "ginot-hair-plans",
    "file": ".github/workflows/muni-probe.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/configure-pages",
+   "version": null,
+   "spec": "45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-pages-artifact",
+   "version": null,
+   "spec": "fc324d3547104276b827a68afc52ff2a11cc49c9",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/deploy-pages",
+   "version": null,
+   "spec": "368f82528645a54fb793d4d04e342629a3f51346",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/permit-archive-fetch.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/permit-archive-fetch.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "ginot-hair-plans",
+   "file": ".github/workflows/permit-archive-fetch.yml",
    "direct": true
   },
   {
@@ -3576,6 +3837,681 @@
   },
   {
    "ecosystem": "PyPI",
+   "package": "colorama",
+   "version": "0.4.6",
+   "spec": "==0.4.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "coverage",
+   "version": "7.17.3",
+   "spec": "==7.17.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "iniconfig",
+   "version": "2.3.1",
+   "spec": "==2.3.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "packaging",
+   "version": "26.3",
+   "spec": "==26.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pluggy",
+   "version": "1.7.0",
+   "spec": "==1.7.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pygments",
+   "version": "2.21.0",
+   "spec": "==2.21.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": "9.2.0",
+   "spec": "==9.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest-cov",
+   "version": "7.1.0",
+   "spec": "==7.1.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ruff",
+   "version": "0.16.9",
+   "spec": "==0.16.9",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-ci-tools.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "certifi",
+   "version": "2026.10.23",
+   "spec": "==2026.10.23",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "colorama",
+   "version": "0.4.6",
+   "spec": "==0.4.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "et-xmlfile",
+   "version": "2.0.0",
+   "spec": "==2.0.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ezdxf",
+   "version": "1.4.5",
+   "spec": "==1.4.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "fonttools",
+   "version": "4.68.0",
+   "spec": "==4.68.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "iniconfig",
+   "version": "2.3.1",
+   "spec": "==2.3.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "markdown",
+   "version": "3.11.3",
+   "spec": "==3.11.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": "2.4.6",
+   "spec": "==2.4.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": "2.5.4",
+   "spec": "==2.5.4",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "openpyxl",
+   "version": "3.1.5",
+   "spec": "==3.1.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "packaging",
+   "version": "26.3",
+   "spec": "==26.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pillow",
+   "version": "13.0.0",
+   "spec": "==13.0.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pluggy",
+   "version": "1.7.0",
+   "spec": "==1.7.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pygments",
+   "version": "2.21.0",
+   "spec": "==2.21.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyparsing",
+   "version": "3.3.3",
+   "spec": "==3.3.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": "3.7.2",
+   "spec": "==3.7.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": "3.8.0",
+   "spec": "==3.8.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pytest",
+   "version": "9.2.0",
+   "spec": "==9.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyyaml",
+   "version": "6.0.3",
+   "spec": "==6.0.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "shapely",
+   "version": "2.2.0",
+   "spec": "==2.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "typing-extensions",
+   "version": "4.16.0",
+   "spec": "==4.16.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-lock.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "ast-serialize",
+   "version": "0.13.1",
+   "spec": "==0.13.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "librt",
+   "version": "0.16.0",
+   "spec": "==0.16.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "mypy",
+   "version": "2.4.1",
+   "spec": "==2.4.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "mypy-extensions",
+   "version": "1.2.0",
+   "spec": "==1.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pathspec",
+   "version": "1.1.1",
+   "spec": "==1.1.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "typing-extensions",
+   "version": "4.16.0",
+   "spec": "==4.16.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-mypy.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pillow",
+   "version": "13.0.0",
+   "spec": "==13.0.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "shapely",
+   "version": "2.2.0",
+   "spec": "==2.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": "3.8.0",
+   "spec": "==3.8.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyproj",
+   "version": "3.7.2",
+   "spec": "==3.7.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "markdown",
+   "version": "3.11.3",
+   "spec": "==3.11.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": "2.5.4",
+   "spec": "==2.5.4",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "numpy",
+   "version": "2.4.6",
+   "spec": "==2.4.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "certifi",
+   "version": "2026.10.23",
+   "spec": "==2026.10.23",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pages.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "boolean-py",
+   "version": "5.0",
+   "spec": "==5.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "cachecontrol",
+   "version": "0.14.4",
+   "spec": "==0.14.4",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "certifi",
+   "version": "2026.10.23",
+   "spec": "==2026.10.23",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "charset-normalizer",
+   "version": "3.5.2",
+   "spec": "==3.5.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "cyclonedx-python-lib",
+   "version": "11.12.0",
+   "spec": "==11.12.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "defusedxml",
+   "version": "0.7.1",
+   "spec": "==0.7.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "filelock",
+   "version": "4.2.10",
+   "spec": "==4.2.10",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "idna",
+   "version": "3.20",
+   "spec": "==3.20",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "license-expression",
+   "version": "30.4.4",
+   "spec": "==30.4.4",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "markdown-it-py",
+   "version": "4.3.0",
+   "spec": "==4.3.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "mdurl",
+   "version": "0.1.2",
+   "spec": "==0.1.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "msgpack",
+   "version": "1.2.4",
+   "spec": "==1.2.4",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "packageurl-python",
+   "version": "0.17.6",
+   "spec": "==0.17.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "packaging",
+   "version": "26.3",
+   "spec": "==26.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pip",
+   "version": "26.3",
+   "spec": "==26.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pip-api",
+   "version": "0.0.35",
+   "spec": "==0.0.35",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pip-audit",
+   "version": "2.10.1",
+   "spec": "==2.10.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pip-requirements-parser",
+   "version": "32.0.1",
+   "spec": "==32.0.1",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "platformdirs",
+   "version": "4.14.5",
+   "spec": "==4.14.5",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "py-serializable",
+   "version": "2.2.0",
+   "spec": "==2.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pygments",
+   "version": "2.21.0",
+   "spec": "==2.21.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "pyparsing",
+   "version": "3.3.3",
+   "spec": "==3.3.3",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "requests",
+   "version": "2.34.2",
+   "spec": "==2.34.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "rich",
+   "version": "15.0.0",
+   "spec": "==15.0.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "sortedcontainers",
+   "version": "2.4.0",
+   "spec": "==2.4.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "tomli",
+   "version": "2.5.0",
+   "spec": "==2.5.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "tomli-w",
+   "version": "1.2.0",
+   "spec": "==1.2.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "typing-extensions",
+   "version": "4.16.0",
+   "spec": "==4.16.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "urllib3",
+   "version": "2.8.0",
+   "spec": "==2.8.0",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-pip-audit.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "greenlet",
+   "version": "3.5.6",
+   "spec": "==3.5.6",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-playwright.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
+   "package": "playwright",
+   "version": "1.65.2",
+   "spec": "==1.65.2",
+   "repo": "ginot-hair-plans",
+   "file": "requirements-playwright.txt",
+   "direct": true
+  },
+  {
+   "ecosystem": "PyPI",
    "package": "ezdxf",
    "version": null,
    "spec": ">=1.4.5",
@@ -3720,6 +4656,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "givatayim-106-adapter",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3846,6 +4791,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "heb-google-cal",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -3963,6 +4917,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "hue-energy-estimates",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4001,7 +4964,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "hue-energy-estimates",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -4040,6 +5003,15 @@
    "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
    "repo": "kurrent-reader",
    "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "kurrent-reader",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -4368,6 +5340,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "mitsubishi-echonet",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4481,6 +5462,15 @@
    "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
    "repo": "municipal-photo-model",
    "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "municipal-photo-model",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -4656,6 +5646,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parcel-coverage-audit",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -4787,6 +5786,15 @@
    "spec": "v7",
    "repo": "parking-category-model",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parking-category-model",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -5295,6 +6303,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parking-report-intake",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -5540,7 +6557,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-java",
    "version": null,
-   "spec": "b843ebf9b913146b38da2eaa7aeddf76074ae1ad",
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/android.yml",
    "direct": true
@@ -5585,7 +6602,7 @@
    "ecosystem": "GitHub Actions",
    "package": "actions/setup-java",
    "version": null,
-   "spec": "b843ebf9b913146b38da2eaa7aeddf76074ae1ad",
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/android.yml",
    "direct": true
@@ -5632,6 +6649,159 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": null,
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/display-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/display-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/display-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/display-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-rotating.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-rotating.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-rotating.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-rotating.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/emulator-weekly.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
    "file": ".github/workflows/layout.yml",
    "direct": true
   },
@@ -5641,6 +6811,60 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/live-emulator-e2e.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
    "file": ".github/workflows/m0-engine-trial.yml",
    "direct": true
   },
@@ -5687,6 +6911,51 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/manual-gpg-signing.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/namespace-upgrade-proof.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/namespace-upgrade-proof.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/namespace-upgrade-proof.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/namespace-upgrade-proof.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/namespace-upgrade-proof.yml",
    "direct": true
   },
   {
@@ -5713,6 +6982,42 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
+   "file": ".github/workflows/private-ocr-benchmark.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-java",
+   "version": null,
+   "spec": "77dd5b2ce225ea11469928ac317850245a74ae78",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/private-ocr-benchmark.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reactivecircus/android-emulator-runner",
+   "version": null,
+   "spec": "a421e43855164a8197daf9d8d40fe71c6996bb0d",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/private-ocr-benchmark.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/private-ocr-benchmark.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
    "file": ".github/workflows/release.yml",
    "direct": true
   },
@@ -5723,6 +7028,15 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/release.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/repository-checks.yml",
    "direct": true
   },
   {
@@ -5783,7 +7097,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -5795,6 +7109,24 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-app",
    "file": ".github/workflows/scorecard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/trial-data-rotation.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "parking-reporter-app",
+   "file": ".github/workflows/trial-data-rotation.yml",
    "direct": true
   },
   {
@@ -5889,6 +7221,78 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "11bd71901bbe5b1630ceea73d27597364c9af683",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios-compat.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios-compat.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "11bd71901bbe5b1630ceea73d27597364c9af683",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios-screens.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios-screens.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "11bd71901bbe5b1630ceea73d27597364c9af683",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "11bd71901bbe5b1630ceea73d27597364c9af683",
+   "repo": "parking-reporter-ios",
+   "file": ".github/workflows/ios.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -5963,7 +7367,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "parking-reporter-ios",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -6011,6 +7415,15 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "parking-reporter-ios",
    "file": ".github/workflows/wiki-sync.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "parking-stats",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -6063,6 +7476,42 @@
    "package": "actions/setup-python",
    "version": null,
    "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-stats",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "ea165f8d65b6e75b540449e92b4886f43607fa02",
+   "repo": "parking-stats",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "parking-stats",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-python",
+   "version": null,
+   "spec": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+   "repo": "parking-stats",
+   "file": ".github/workflows/pages.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/download-artifact",
+   "version": null,
+   "spec": "9000827ccba6bdab643e8b6fd33ac0654aef8333",
    "repo": "parking-stats",
    "file": ".github/workflows/pages.yml",
    "direct": true
@@ -6393,6 +7842,15 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "pyhems",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
@@ -6586,7 +8044,61 @@
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "repo-checks",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": null,
+   "spec": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+   "repo": "repo-checks",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "repo-checks",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "repo-checks",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "repo-checks",
+   "file": ".github/workflows/hmac-benchmark.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "repo-checks",
+   "file": ".github/workflows/hmac-bounded-name-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "repo-checks",
+   "file": ".github/workflows/hmac-pruned-benchmark.yml",
    "direct": true
   },
   {
@@ -6600,6 +8112,42 @@
   },
   {
    "ecosystem": "GitHub Actions",
+   "package": "actions/github-script",
+   "version": null,
+   "spec": "ed597411d8f924073f98dfc5c65a23a2325f34cd",
+   "repo": "repo-checks",
+   "file": ".github/workflows/private-name-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "eeb45016361705d34ae212b0b615351f81cac9cd",
+   "repo": "repo-checks",
+   "file": ".github/workflows/private-name-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "eeb45016361705d34ae212b0b615351f81cac9cd",
+   "repo": "repo-checks",
+   "file": ".github/workflows/private-name-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/github-script",
+   "version": null,
+   "spec": "ed597411d8f924073f98dfc5c65a23a2325f34cd",
+   "repo": "repo-checks",
+   "file": ".github/workflows/private-name-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
    "package": "reihlinstinct/dependency-inventory",
    "version": null,
    "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
@@ -6614,6 +8162,78 @@
    "spec": "0976a9cc34d3b34a5f8c65b45953678bba92f0b2",
    "repo": "repo-checks",
    "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "axe-core",
+   "version": null,
+   "spec": "4.14.0",
+   "repo": "repo-checks",
+   "file": "actions/a11y/package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright",
+   "version": null,
+   "spec": "1.65.0",
+   "repo": "repo-checks",
+   "file": "actions/a11y/package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "axe-core",
+   "version": "4.14.0",
+   "spec": null,
+   "repo": "repo-checks",
+   "file": "actions/a11y/package-lock.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright",
+   "version": "1.65.0",
+   "spec": null,
+   "repo": "repo-checks",
+   "file": "actions/a11y/package-lock.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "playwright-core",
+   "version": "1.65.0",
+   "spec": null,
+   "repo": "repo-checks",
+   "file": "actions/a11y/package-lock.json",
+   "direct": false
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/a11y.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "aee03b060c7b844b28e9767d8634b87f82cb4896",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/a11y.yml",
    "direct": true
   },
   {
@@ -6695,6 +8315,15 @@
    "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
    "repo": "shabbat-fridge",
    "file": ".github/workflows/collector.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "shabbat-fridge",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -6854,7 +8483,7 @@
    "ecosystem": "GitHub Actions",
    "package": "github/codeql-action",
    "version": null,
-   "spec": "9b3254085494b55a0f7c4c2b3d2d52cc712ce370",
+   "spec": "33d7b85da1a04171e211befe2c739303b9a4c066",
    "repo": "shabbat-fridge",
    "file": ".github/workflows/scorecard.yml",
    "direct": true
@@ -6917,7 +8546,7 @@
    "ecosystem": "npm",
    "package": "vitest",
    "version": null,
-   "spec": "^5.0.5",
+   "spec": "^5.1.0",
    "repo": "shabbat-fridge",
    "file": "package.json",
    "direct": true
@@ -7222,7 +8851,7 @@
   {
    "ecosystem": "npm",
    "package": "@oxc-project/types",
-   "version": "0.155.0",
+   "version": "0.156.0",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7231,7 +8860,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-android-arm-eabi",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7240,7 +8869,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-android-arm64",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7249,7 +8878,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-darwin-arm64",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7258,7 +8887,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-darwin-x64",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7267,7 +8896,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-freebsd-x64",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7276,7 +8905,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-arm-gnueabihf",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7285,7 +8914,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-arm64-gnu",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7294,7 +8923,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-arm64-musl",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7303,7 +8932,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-ppc64-gnu",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7312,7 +8941,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-s390x-gnu",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7321,7 +8950,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-x64-gnu",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7330,7 +8959,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-linux-x64-musl",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7339,7 +8968,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-openharmony-arm64",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7348,7 +8977,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-win32-arm64-msvc",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7357,7 +8986,7 @@
   {
    "ecosystem": "npm",
    "package": "@rolldown/binding-win32-x64-msvc",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7393,7 +9022,7 @@
   {
    "ecosystem": "npm",
    "package": "@types/estree",
-   "version": "1.0.9",
+   "version": "1.0.10",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7591,7 +9220,7 @@
   {
    "ecosystem": "npm",
    "package": "@vitest/mocker",
-   "version": "5.0.5",
+   "version": "5.1.0",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7600,7 +9229,7 @@
   {
    "ecosystem": "npm",
    "package": "@vitest/spy",
-   "version": "5.0.5",
+   "version": "5.1.0",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7861,7 +9490,7 @@
   {
    "ecosystem": "npm",
    "package": "rolldown",
-   "version": "1.2.15",
+   "version": "1.2.16",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7969,7 +9598,7 @@
   {
    "ecosystem": "npm",
    "package": "vite",
-   "version": "8.3.5",
+   "version": "8.3.6",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -7978,7 +9607,7 @@
   {
    "ecosystem": "npm",
    "package": "vitest",
-   "version": "5.0.5",
+   "version": "5.1.0",
    "spec": null,
    "repo": "shabbat-fridge",
    "file": "package-lock.json",
@@ -8063,6 +9692,15 @@
    "spec": "v7",
    "repo": "wa-headless-cli",
    "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "wa-headless-cli",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -9265,6 +10903,87 @@
   {
    "ecosystem": "GitHub Actions",
    "package": "actions/checkout",
+   "version": "4",
+   "spec": "v4",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": "4",
+   "spec": "v4",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": "4",
+   "spec": "v4",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/setup-node",
+   "version": "4",
+   "spec": "v4",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": "4",
+   "spec": "v4",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": "3",
+   "spec": "v3",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "github/codeql-action",
+   "version": "3",
+   "spec": "v3",
+   "repo": "wa-link-generator",
+   "file": ".github/workflows/codeql.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "axe-core",
+   "version": null,
+   "spec": "^4.10.0",
+   "repo": "wa-link-generator",
+   "file": "package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "npm",
+   "package": "puppeteer-core",
+   "version": null,
+   "spec": "^23.0.0",
+   "repo": "wa-link-generator",
+   "file": "package.json",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
    "version": null,
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wd-face-recognition",
@@ -9485,6 +11204,15 @@
    "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
    "repo": "wd-face-recognition",
    "file": ".github/workflows/demo.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "wd-face-recognition",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
@@ -9728,6 +11456,15 @@
    "spec": "c2f8c84fbe0f336bf7cedae46547cc4645e807d5",
    "repo": "website-e2e-checks",
    "file": ".github/workflows/code-layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "website-e2e-checks",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
