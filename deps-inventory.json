@@ -1,6 +1,6 @@
 {
  "repo": "dependency-inventory",
- "generated_at": "2026-11-09T13:03:41.733975+00:00",
+ "generated_at": "2026-11-16T12:56:01.555515+00:00",
  "packages": [
   {
    "ecosystem": "GitHub Actions",
@@ -90,6 +90,15 @@
    "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
    "repo": "dependency-inventory",
    "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/gemini-review.yml",
    "direct": true
   },
   {
