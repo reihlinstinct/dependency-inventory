@@ -1,0 +1,51 @@
+name: Vulnerability scan (reusable)
+
+on:
+  workflow_call:
+
+# No top-level or scan-job permissions block: called-workflow jobs inherit
+# the caller job's grants (a called workflow can downgrade, never elevate).
+# Callers grant contents:read everywhere; the weekly inventory is published
+# as a workflow artifact, never committed, so no caller needs write access.
+
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Fetch depinv tools
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: reihlinstinct/dependency-inventory
+          ref: b5a520395f9099e460615a25c791f90b71d9bd49 # v1.0.7 - pin tools to the same release as this workflow; bump both together
+          path: .depinv
+          persist-credentials: false
+      - name: Generate inventory
+        run: python3 .depinv/tools/generate_inventory.py --repo . --name "$GITHUB_REPOSITORY" --out deps-inventory.json
+      - name: Scan against OSV
+        run: python3 .depinv/tools/scan_inventory.py --inventory deps-inventory.json --out vuln-report.md --title "Vulnerability scan - $GITHUB_REPOSITORY"
+      - name: Publish inventory artifact
+        if: github.event_name == 'schedule'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: deps-inventory
+          path: |
+            deps-inventory.json
+            vuln-report.md
+          retention-days: 30
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    continue-on-error: true
+    # No permissions block: the job inherits the caller's grants (contents:read
+    # + pull-requests:read on PR runs). Declaring them here makes callers that
+    # grant only contents:read (e.g. scan-weekly) invalid at startup.
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294 # v5.0.0

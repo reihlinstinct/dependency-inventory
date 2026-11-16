@@ -1,0 +1,114 @@
+{
+ "repo": "dependency-inventory",
+ "generated_at": "2026-11-16T12:56:01.555515+00:00",
+ "packages": [
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/aggregate.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/ci.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/layout.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/checkout",
+   "version": null,
+   "spec": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/vuln-scan.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/dependency-review-action",
+   "version": null,
+   "spec": "a1d282b36b6f3519aa1f3fc636f609c47dddb294",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "actions/upload-artifact",
+   "version": null,
+   "spec": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/scan-reusable.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/gemini-pr-review",
+   "version": null,
+   "spec": "d0e3c66f4724b5fb5a6e6133aae43c8adaedf277",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/gemini-review.yml",
+   "direct": true
+  },
+  {
+   "ecosystem": "GitHub Actions",
+   "package": "reihlinstinct/repo-checks",
+   "version": null,
+   "spec": "5d4442070254cdc98f36a1cdbe8137b8cb014d30",
+   "repo": "dependency-inventory",
+   "file": ".github/workflows/privacy-guard.yml",
+   "direct": true
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+name: Bug report
+description: Something in the inventory or scan is wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (logs, run links, screenshots)
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+[project]
+name = "depinv"
+version = "1.0.0"
+description = "Dependency inventory and OSV vulnerability scanning across reihlinstinct repos"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+# BLE001: parsers deliberately tolerate malformed manifests.
+# UP017: datetime.UTC needs 3.11+; we keep timezone.utc for 3.10 dev compat.
+ignore = ["BLE001", "UP017"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
